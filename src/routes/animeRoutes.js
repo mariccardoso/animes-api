@@ -17,6 +17,6 @@ router.post("/", AnimeController.createAnime);
 router.put("/:id", AnimeController.updateAnime);
 
 // DELETE /api/animes/:id - Remover um anime
-router.delete("/:id", AnimeController.deleteAnime);
+router.delete("/:i'd", AnimeController.deleteAnime);
 
 export default router;
